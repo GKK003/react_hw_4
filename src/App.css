@@ -8,10 +8,10 @@
 body {
   min-height: 100vh;
   background-color: #eeeeee;
-  padding: 40px;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .main_box {
