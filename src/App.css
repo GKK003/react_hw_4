@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nabla&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #eeeeee;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main_box {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 528px;
+}
+
+.main_div {
+  width: 100%;
+  max-width: 360px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.second_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #081f32;
+  font-family: "DM Serif Display", serif;
+}
+
+.oval_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fire {
+  background-color: #f8593b;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheat {
+  background-color: #ffc22b;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaf {
+  background-color: #2ecc71;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #6e798c;
+  padding: 0 20px;
+  max-width: 330px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  height: 75px;
+  letter-spacing: 0px;
+}
+
+.info_div {
+  max-width: 330px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.info_txt {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #a5adbb;
+  font-family: "Open Sans", sans-serif;
+}
+
+.last_div {
+  max-width: 330px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.last_txt {
+  color: #081f32;
+  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.sale_txt {
+  color: red;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 18%;
+  font-weight: 700;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  border: none;
+  width: 114px;
+  height: 48px;
+}
