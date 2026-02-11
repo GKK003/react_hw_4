@@ -21,7 +21,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  height: 528px;
+  height: auto;
+  flex-wrap: wrap;
 }
 
 .main_div {
@@ -33,6 +34,7 @@ body {
   flex-direction: column;
   gap: 20px;
   height: 100%;
+  padding-bottom: 40px;
 }
 
 .img {
@@ -41,6 +43,11 @@ body {
   object-fit: cover;
   display: block;
   border-radius: 16px 16px 0px 0px;
+}
+
+.img:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .second_line {
@@ -75,6 +82,11 @@ body {
   align-items: center;
 }
 
+.fire:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .wheat {
   background-color: #ffc22b;
   width: 24px;
@@ -85,6 +97,11 @@ body {
   align-items: center;
 }
 
+.wheat:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .leaf {
   background-color: #2ecc71;
   width: 24px;
@@ -93,6 +110,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.leaf:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .txt {
@@ -128,7 +150,6 @@ body {
 }
 
 .last_div {
-  max-width: 330px;
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -172,4 +193,9 @@ body {
   border: none;
   width: 114px;
   height: 48px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
